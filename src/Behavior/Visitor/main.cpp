@@ -9,6 +9,7 @@ int main()
     // 创建了两种Visitor：
     // ListVisitor 列出所有文件和目录，以及大小
     // FileCountVisitor 统计所有文件个数
+    
     Directory *root = new Directory("root");
     Directory *bin = new Directory("bin");
     Directory *tmp = new Directory("tmp");
