@@ -35,3 +35,5 @@
 [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
 
 [设计模式C++实现](https://github.com/jaredtao/DesignPattern)
+
+[设计模式](https://refactoringguru.cn/design-patterns)
