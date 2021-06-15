@@ -1,19 +1,19 @@
-﻿#include "IDCardFactory.h"
-#include "IDCardProFactory.h"
+﻿#include "WoodenDoorFactory.h"
+#include "IronDoorFactory.h"
 int main()
 {
-    IFactory *fac = new IDCardFactory;
-    IProduct *p = fac->create("tao");    
-    p->use();
+    IDoorFactory* fac = new WoodenDoorFactory;
+    IDoor* door = fac->createDoor();
+    door->getDescription();
 
-    IFactory *facPro = new IDCardProFactory;
-    IProduct *pPro = fac->create("tao2");
-    pPro->use();    
+    IDoorFactory* fac1 = new IronDoorFactory;
+    IDoor* door1 = fac1->createDoor();
+    door1->getDescription();
 
-    delete p;    
+    delete door;    
     delete fac;    
-    delete pPro;    
-    delete facPro;
+    delete door1;    
+    delete fac1;
     
     return 0;
 }
