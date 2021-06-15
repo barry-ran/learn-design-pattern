@@ -1,14 +1,14 @@
-﻿#pragma once
-#include "IDCard.h"
+#pragma once
+#include "IDCardPro.h"
 #include "IFactory.h"
 #include <string>
 #include <vector>
-class IDCardFactory : public IFactory
+class IDCardProFactory : public IFactory
 {
 public:
     IProduct *createProduct(const std::string &owner)
     {
-        return new IDCard(owner);
+        return new IDCardPro(owner);
     }
     void registerProduct(IProduct *pro)
     {

@@ -1,14 +1,19 @@
 ﻿#include "IDCardFactory.h"
+#include "IDCardProFactory.h"
 int main()
 {
-    IFactory *fac = new IDCareFactory;
-    IProduct *pro = fac->create("tao");
-    IProduct *pro2 = fac->create("tao2");
-    pro->use();
-    pro2->use();
+    IFactory *fac = new IDCardFactory;
+    IProduct *p = fac->create("tao");    
+    p->use();
 
-    delete pro;
-    delete fac;
-    delete pro2;
+    IFactory *facPro = new IDCardProFactory;
+    IProduct *pPro = fac->create("tao2");
+    pPro->use();    
+
+    delete p;    
+    delete fac;    
+    delete pPro;    
+    delete facPro;
+    
     return 0;
 }
