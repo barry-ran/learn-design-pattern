@@ -28,3 +28,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_subdirectory(Behavior)
 add_subdirectory(Create)
 add_subdirectory(Struct)
+
+# 编译Framework需要qt环境，可以直接使用qtcreator编译
+# cmake ../src -G "Visual Studio 16 2019" -A Win32
+# add_subdirectory(Framework)
