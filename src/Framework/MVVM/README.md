@@ -25,5 +25,18 @@ MVVM 模式采用双向绑定(data-binding)：View 的变动，自动反映在 V
 - [MVC、MVP 和 MVVM 之间的区别](https://henleylee.github.io/posts/2019/de9d67a4.html)
 - [MVC&MVP&MVVM](https://github.com/zlgopen/awtk-mvvm/blob/master/docs/8.intro.md)
 - [QML实现一个MVVM](http://www.qtcn.org/bbs/read-htm-tid-62886.html)
+
+## 简单示例
+- [基于qml Binding的mvvm模式](https://github.com/thegrondin/Mvvm-Qt-Desktop)
+- [qml简单mvvm](https://github.com/wow2006/Qt-quick-MVVM)
+
+## 复杂示例
 - [Model View ViewModel framework for large Qt C++ applications](https://github.com/gpospelov/qt-mvvm)
+- [基于qml实现View和ViewModel的双向绑定（自己实现Command绑定）](https://github.com/pvanhoof/mvvm)
+- [使用MVVM框架开发的Qt小游戏（自己实现Command绑定](https://github.com/2018YX-game/repo)
+- [a GUI project implemented with C++17 and Qt, using MVVM(Model-View-ViewModel) design.](https://github.com/JianingWang43/CPP-MVVM-Project)
+- [An example of using MVVM and Observer pattern with Qt](https://github.com/skutnii/simple-observable-qt)
+
+## 基于Qt的MVVM框架
+- [QLiteMVVM is a light MVVM/MVP framework for Qt](https://github.com/mrchipset/QLiteMVVM)
 - [A mvvm oriented library for Qt, to create Projects for Widgets and Quick in parallel](https://github.com/Skycoder42/QtMvvm)
