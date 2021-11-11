@@ -25,9 +25,10 @@ message(STATUS "CMAKE_BUILD_TYPE:${CMAKE_BUILD_TYPE}")
 set(CMAKE_CXX_STANDARD 11)
 
 # 添加子项目
-add_subdirectory(Behavior)
-add_subdirectory(Create)
-add_subdirectory(Struct)
+add_subdirectory(src/Behavior)
+add_subdirectory(src/Create)
+add_subdirectory(src/Struct)
+add_subdirectory(src/sdk)
 
 # 编译Framework需要qt环境，可以直接使用qtcreator编译
 # cmake ../src -G "Visual Studio 16 2019" -A Win32
